@@ -1,29 +1,23 @@
 package com.example.leal.trainingapp.model;
 
-import com.j256.ormlite.field.DatabaseField;
-import com.j256.ormlite.table.DatabaseTable;
+import com.orm.SugarRecord;
 
-@DatabaseTable
-public class Book {
-    @DatabaseField(allowGeneratedIdInsert=true, generatedId=true)
-    private int id;
+public class Book extends SugarRecord {
+    String title;
+    String edition;
 
-    @DatabaseField
-    private String name;
-
-    public String getName() {
-        return name;
+    public Book(){
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public Book(String title, String edition){
+        this.title = title;
+        this.edition = edition;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    @Override
+    public String toString() {
+        return this.edition+" | "+this.title;
     }
 }
+
+

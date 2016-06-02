@@ -12,6 +12,11 @@ import android.widget.Toast;
 //import android.widget.Toolbar;
 import android.support.v7.widget.Toolbar;
 
+import com.example.leal.trainingapp.Uteis.DatabaseManager;
+import com.example.leal.trainingapp.model.Book;
+
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     //DECLARANDO UM OBJETO LISTVIEW
@@ -26,14 +31,21 @@ public class MainActivity extends AppCompatActivity {
 
         //DETERMINA O CONTEÚDO DA NOSSA ACTIVITY
         setContentView(R.layout.activity_main);
+//        DatabaseManager.init(this);
 
 
         /*CARREGA O MÉTODO DE CRIAÇÃO DOS COMPONENTES*/
-        this.CriarComponentes();
-        this.CriarEventos();
+//        this.CriarComponentes();
+//        this.CriarEventos();
 
         /*CARREGA AS OPÇÕES DA LISTA*/
-        this.CarregaOpcoesLista();
+//        this.CarregaOpcoesLista();
+
+        Book book = new Book("Title here ola ola", "3nd edition");
+        book.save();
+
+        List<Book> books = Book.listAll(Book.class);
+        System.out.println(books);
     }
     //VINCULA O COMPONENTE DA NOSSA TELA AO OBJETO DA NOSSA ATIVIDADE
     protected void CriarComponentes(){
