@@ -1,2 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/libs/ormlite-core-4.48.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="00b3081e1074bf380cc1d09d6ef4f8e5415311f2">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/2/ormlite-core-4.48_07aa9f88149a1fe267850c9fd500fdf07a342866/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_ec805a4fc7cc4e880790ac71f0d0c309f342ecb5/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_d7d81d043cf0e4db7c2ce7b72914ff2732a73a36/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_9bc9f8e9e5ead545d3faf960d4c996a80e058057/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="bf9f8c49b4ed022bf8bcf17bf32381de7de1f411">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_03a7fdae9cf9a1c397b269fd826809a15e54a776/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/.android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_ca28bbd70bbd22559512a7cf54699d828b2cc5fe/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_b9b55f707c752256cd819d5abcaa9a65786654bb/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/libs/ormlite-android-4.48.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9e45246f4a068cad94e03f34bf8f24358279a7f7">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/2/ormlite-android-4.48_aa3c715c247ff404c543c7c05932f1e5618306b4/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5fb206f1b088caf2806e9a1c857b40d650e21538">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_88e156bbeb113ea344ebf3345b198bb6b423874c/classes.dex" />
+    </item>
+    <item
+        jar="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/leal/projects/android-studio/trainingapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_2f59437ac3596eb42d0f3585c7e8b0b6b63b8f2c/classes.dex" />
+    </item>
+
+</items>
