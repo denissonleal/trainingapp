@@ -3,6 +3,7 @@ package com.example.leal.trainingapp.model;
 import com.orm.SugarRecord;
 
 public class Book extends SugarRecord {
+    private Long id;
     String title;
     String edition;
 
@@ -16,7 +17,7 @@ public class Book extends SugarRecord {
 
     @Override
     public String toString() {
-        return this.edition+" | "+this.title;
+        return this.id+" | "+this.edition+" | "+this.title;
     }
 }
 

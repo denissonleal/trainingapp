@@ -35,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         /*CARREGA O MÉTODO DE CRIAÇÃO DOS COMPONENTES*/
-//        this.CriarComponentes();
-//        this.CriarEventos();
+        this.CriarComponentes();
+        this.CriarEventos();
 
         /*CARREGA AS OPÇÕES DA LISTA*/
-//        this.CarregaOpcoesLista();
+        this.CarregaOpcoesLista();
 
-        Book book = new Book("Title here ola ola", "3nd edition");
+        Book book = new Book("Outro id", "2nd edition");
         book.save();
 
         List<Book> books = Book.listAll(Book.class);
@@ -60,10 +60,11 @@ public class MainActivity extends AppCompatActivity {
     //CRIA A OPÇÕES DA NOSSA LISTA E ADICIONA AO LISTVIEW DA NOSSA TELA.
     protected  void CarregaOpcoesLista(){
 
-        String[] itens = new String[2];
+        String[] itens = new String[3];
 
         itens[0] = "Cadastrar";
         itens[1] = "Consultar";
+        itens[2] = "Audio";
 
         ArrayAdapter<String> arrayItens = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,itens);
 
@@ -100,6 +101,12 @@ public class MainActivity extends AppCompatActivity {
         else if(opcaoMenu.equals("Consultar")){
 
             intentRedirecionar = new Intent(this, ConsultarActivity.class);
+            startActivity(intentRedirecionar);
+            finish();
+        }
+        else if(opcaoMenu.equals("Audio")){
+
+            intentRedirecionar = new Intent(this, AudioRecordActivity.class);
             startActivity(intentRedirecionar);
             finish();
         }
